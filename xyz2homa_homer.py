@@ -308,7 +308,7 @@ for a in range(len(cycles)):
         distdif_homa = dist12 - opt_cc_homa 
         r_cc_homa = r_cc_homa + distdif_homa*distdif_homa
       elif elem[atom2] == "N":
-        distdif_homa = dist12 - opt_cn_homer
+        distdif_homa = dist12 - opt_cn_homa
         r_cn_homa = r_cn_homa + distdif_homa*distdif_homa
       elif elem[atom2] == "O":
         distdif_homa = dist12 - opt_co_homa
